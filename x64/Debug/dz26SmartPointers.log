@@ -1,0 +1,75 @@
+﻿  main.cpp
+  smart_pointers.cpp
+  Создание кода...
+C:\Users\sofia\source\repos\dz26SmartPointers\dz26SmartPointers\smart_pointers.cpp(5,17): error C2995: MyUniquePtr<T>::MyUniquePtr(T *): шаблон функции уже определен
+      C:\Users\sofia\source\repos\dz26SmartPointers\dz26SmartPointers\smart_pointers.h(14,5):
+       см. объявление "MyUniquePtr<T>::MyUniquePtr"
+  
+C:\Users\sofia\source\repos\dz26SmartPointers\dz26SmartPointers\smart_pointers.cpp(8,18): error C2995: MyUniquePtr<T>::~MyUniquePtr(void): шаблон функции уже определен
+      C:\Users\sofia\source\repos\dz26SmartPointers\dz26SmartPointers\smart_pointers.h(15,6):
+       см. объявление "MyUniquePtr<T>::~MyUniquePtr"
+  
+C:\Users\sofia\source\repos\dz26SmartPointers\dz26SmartPointers\smart_pointers.cpp(14,17): error C2995: MyUniquePtr<T>::MyUniquePtr(MyUniquePtr<T> &&) noexcept: шаблон функции уже определен
+      C:\Users\sofia\source\repos\dz26SmartPointers\dz26SmartPointers\smart_pointers.h(20,5):
+       см. объявление "MyUniquePtr<T>::MyUniquePtr"
+  
+C:\Users\sofia\source\repos\dz26SmartPointers\dz26SmartPointers\smart_pointers.cpp(20,33): error C2995: MyUniquePtr<T> &MyUniquePtr<T>::operator =(MyUniquePtr<T> &&) noexcept: шаблон функции уже определен
+      C:\Users\sofia\source\repos\dz26SmartPointers\dz26SmartPointers\smart_pointers.h(21,18):
+       см. объявление "MyUniquePtr<T>::operator ="
+  
+C:\Users\sofia\source\repos\dz26SmartPointers\dz26SmartPointers\smart_pointers.cpp(32,20): error C2995: T &MyUniquePtr<T>::operator *(void) const: шаблон функции уже определен
+      C:\Users\sofia\source\repos\dz26SmartPointers\dz26SmartPointers\smart_pointers.h(23,8):
+       см. объявление "MyUniquePtr<T>::operator *"
+  
+C:\Users\sofia\source\repos\dz26SmartPointers\dz26SmartPointers\smart_pointers.cpp(38,20): error C2995: T *MyUniquePtr<T>::operator ->(void) const: шаблон функции уже определен
+      C:\Users\sofia\source\repos\dz26SmartPointers\dz26SmartPointers\smart_pointers.h(24,8):
+       см. объявление "MyUniquePtr<T>::operator ->"
+  
+C:\Users\sofia\source\repos\dz26SmartPointers\dz26SmartPointers\smart_pointers.cpp(44,20): error C2995: T *MyUniquePtr<T>::get(void) const: шаблон функции уже определен
+      C:\Users\sofia\source\repos\dz26SmartPointers\dz26SmartPointers\smart_pointers.h(25,8):
+       см. объявление "MyUniquePtr<T>::get"
+  
+C:\Users\sofia\source\repos\dz26SmartPointers\dz26SmartPointers\smart_pointers.cpp(50,20): error C2995: T *MyUniquePtr<T>::release(void): шаблон функции уже определен
+      C:\Users\sofia\source\repos\dz26SmartPointers\dz26SmartPointers\smart_pointers.h(26,8):
+       см. объявление "MyUniquePtr<T>::release"
+  
+C:\Users\sofia\source\repos\dz26SmartPointers\dz26SmartPointers\smart_pointers.cpp(58,22): error C2995: void MyUniquePtr<T>::reset(T *): шаблон функции уже определен
+      C:\Users\sofia\source\repos\dz26SmartPointers\dz26SmartPointers\smart_pointers.h(27,10):
+       см. объявление "MyUniquePtr<T>::reset"
+  
+C:\Users\sofia\source\repos\dz26SmartPointers\dz26SmartPointers\smart_pointers.cpp(65,17): error C2995: MySharedPtr<T>::MySharedPtr(T *): шаблон функции уже определен
+      C:\Users\sofia\source\repos\dz26SmartPointers\dz26SmartPointers\smart_pointers.h(38,5):
+       см. объявление "MySharedPtr<T>::MySharedPtr"
+  
+C:\Users\sofia\source\repos\dz26SmartPointers\dz26SmartPointers\smart_pointers.cpp(68,17): error C2995: MySharedPtr<T>::MySharedPtr(const MySharedPtr<T> &): шаблон функции уже определен
+      C:\Users\sofia\source\repos\dz26SmartPointers\dz26SmartPointers\smart_pointers.h(39,5):
+       см. объявление "MySharedPtr<T>::MySharedPtr"
+  
+C:\Users\sofia\source\repos\dz26SmartPointers\dz26SmartPointers\smart_pointers.cpp(74,33): error C2995: MySharedPtr<T> &MySharedPtr<T>::operator =(const MySharedPtr<T> &): шаблон функции уже определен
+      C:\Users\sofia\source\repos\dz26SmartPointers\dz26SmartPointers\smart_pointers.h(40,18):
+       см. объявление "MySharedPtr<T>::operator ="
+  
+C:\Users\sofia\source\repos\dz26SmartPointers\dz26SmartPointers\smart_pointers.cpp(87,18): error C2995: MySharedPtr<T>::~MySharedPtr(void): шаблон функции уже определен
+      C:\Users\sofia\source\repos\dz26SmartPointers\dz26SmartPointers\smart_pointers.h(41,6):
+       см. объявление "MySharedPtr<T>::~MySharedPtr"
+  
+C:\Users\sofia\source\repos\dz26SmartPointers\dz26SmartPointers\smart_pointers.cpp(93,20): error C2995: T &MySharedPtr<T>::operator *(void) const: шаблон функции уже определен
+      C:\Users\sofia\source\repos\dz26SmartPointers\dz26SmartPointers\smart_pointers.h(43,8):
+       см. объявление "MySharedPtr<T>::operator *"
+  
+C:\Users\sofia\source\repos\dz26SmartPointers\dz26SmartPointers\smart_pointers.cpp(99,20): error C2995: T *MySharedPtr<T>::operator ->(void) const: шаблон функции уже определен
+      C:\Users\sofia\source\repos\dz26SmartPointers\dz26SmartPointers\smart_pointers.h(44,8):
+       см. объявление "MySharedPtr<T>::operator ->"
+  
+C:\Users\sofia\source\repos\dz26SmartPointers\dz26SmartPointers\smart_pointers.cpp(105,20): error C2995: T *MySharedPtr<T>::get(void) const: шаблон функции уже определен
+      C:\Users\sofia\source\repos\dz26SmartPointers\dz26SmartPointers\smart_pointers.h(45,8):
+       см. объявление "MySharedPtr<T>::get"
+  
+C:\Users\sofia\source\repos\dz26SmartPointers\dz26SmartPointers\smart_pointers.cpp(111,21): error C2995: int MySharedPtr<T>::use_count(void) const: шаблон функции уже определен
+      C:\Users\sofia\source\repos\dz26SmartPointers\dz26SmartPointers\smart_pointers.h(46,9):
+       см. объявление "MySharedPtr<T>::use_count"
+  
+C:\Users\sofia\source\repos\dz26SmartPointers\dz26SmartPointers\smart_pointers.cpp(117,22): error C2995: void MySharedPtr<T>::release(void): шаблон функции уже определен
+      C:\Users\sofia\source\repos\dz26SmartPointers\dz26SmartPointers\smart_pointers.h(49,10):
+       см. объявление "MySharedPtr<T>::release"
+  
